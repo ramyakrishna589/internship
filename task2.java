@@ -89,6 +89,7 @@ class Library {
     void addBook(Book b) {
         catalog.put(b.bookID, b);
         System.out.println("Book added: " + b);
+        System.out.println("Book ID: " + b.bookID);
     }
 
     void removeBook(UUID bookId) {
